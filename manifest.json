@@ -1,0 +1,28 @@
+{
+  "name": "nHentai",
+  "description": "Chrome Apps for nHentai",
+  "version": "0.2",
+  "manifest_version": 2,
+  "minimum_chrome_version": "30",
+  "author": [
+    {
+      "name": "Iqbal Rifai",
+      "email": "yukifag@pm.me"
+    }
+  ],
+  "app": {
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  },
+  "icons": { "16": "nhentai-16.png", "128": "nhentai-128.png" },
+  "permissions": [
+    "webview",
+    "storage",
+    "fullscreen",
+    "<all_urls>"
+  ],
+  "webview": {
+  }
+}
