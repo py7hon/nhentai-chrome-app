@@ -22,7 +22,5 @@
     "storage",
     "fullscreen",
     "<all_urls>"
-  ],
-  "webview": {
-  }
+  ]
 }
